@@ -6,7 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web JS</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./node_modules/codemirror/lib/codemirror.css">
+    <link rel="stylesheet" href="./node_modules/codemirror/theme/seti.css">
+    <script src="./node_modules/codemirror/lib/codemirror.js"></script>
+    <script src="./node_modules/codemirror/mode/javascript/javascript.js"></script>
+    <script src="./node_modules/codemirror/addon/edit/closebrackets.js"></script>
+    <script src="./node_modules/codemirror/addon/edit/matchbrackets.js"></script>
+    <script src="./node_modules/codemirror/addon/runmode/runmode.js"></script>
+    <script src="./node_modules/codemirror/keymap/vim.js"></script>
 </head>
 
 <body>
@@ -19,7 +27,7 @@
 
         <section id="main">
             <div class="main mt-2">
-                <div class="bg-dark" id="main-container">
+                <div class="bg-dark border-grey" id="main-container">
                     <span>Editor</span>
 
                     <div class="mt-1" id="editor-container">
@@ -27,12 +35,15 @@
                     </div>
                 </div>
 
-                <div class="bg-dark" id="console-container">
+                <div class="bg-dark border-grey" id="console-container">
                     <span>Console</span>
                 </div>
             </div>
+            <button class="border-white mt-1" id="run">Run</button>
         </section>
     </div>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>

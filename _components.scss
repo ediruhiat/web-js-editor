@@ -1,6 +1,6 @@
 // Container
 .wrapper {
-    padding: 4rem 3rem !important;
+    padding: 2rem 3rem !important;
     margin: auto !important;
     max-height: 100vh;
 }
@@ -44,4 +44,12 @@
 
 .mt-4 {
     margin-top: 4rem !important;
+}
+
+.border-grey {
+    border: 1px solid #4f4f4f !important;
+}
+
+.border-white {
+    border: 1px solid aliceblue !important;
 }

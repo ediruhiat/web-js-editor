@@ -4,13 +4,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    letter-spacing: 0.03rem;
+    color: aliceblue;
 }
 
 body {
     font-family: 'ShureTechMono', sans-serif;
     background-color: #232325;
-    color: aliceblue;
-    letter-spacing: 0.03rem;
 }
 
 @import 'components';
@@ -33,15 +33,22 @@ body {
     grid-row: 1/2;
 }
 
-#editor {
-    background: #151519;
+.CodeMirror {
+    font-family: 'ShureTechMono' !important;
+    height: 60vh !important;
+}
+
+#run {
+    font-family: 'ShureTechMono' !important;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
     color: aliceblue;
-    font-family: 'ShureTechMono';
-    padding: 8px;
-    resize: none;
-    width: 100%;
-    height: 60vh;
-    overflow: auto;
-    outline: none;
-    border: 1px solid #4f4f4f;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    transition: background-color .1s ease;
+
+    &:hover {
+        background-color: rgba($color: #fff, $alpha: .1);
+    }
 }
