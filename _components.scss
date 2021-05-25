@@ -1,0 +1,47 @@
+// Container
+.wrapper {
+    padding: 4rem 3rem !important;
+    margin: auto !important;
+    max-height: 100vh;
+}
+
+.container-pad {
+    padding: 2% !important;
+    margin: auto !important;
+}
+
+// Column size
+.md-8 {
+    width: 8/12 * 100% !important;
+}
+
+.md-4 {
+    width: 4/12 * 100% !important;
+}
+
+// Display
+.flex {
+    display: flex !important;
+}
+
+// Background
+.bg-dark {
+    background-color: #353539 !important;
+}
+
+// Margin
+.mt-1 {
+    margin-top: 1rem !important;
+}
+
+.mt-2 {
+    margin-top: 2rem !important;
+}
+
+.mt-3 {
+    margin-top: 3rem !important;
+}
+
+.mt-4 {
+    margin-top: 4rem !important;
+}
