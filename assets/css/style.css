@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'ShureTechMono';
-  src: url("./ShureTechMono.woff");
+  src: url("../font/ShureTechMono.woff");
 }
 
 * {
@@ -109,14 +109,14 @@ body {
   font-weight: bold;
   background-color: transparent;
   border: none;
-  color: aliceblue;
+  color: white;
   padding: .5rem 1rem;
   cursor: pointer;
-  -webkit-transition: background-color .1s ease;
-  transition: background-color .1s ease;
+  -webkit-transition: all .1s ease;
+  transition: all .1s ease;
 }
 
 #run:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.175) !important;
 }
 /*# sourceMappingURL=style.css.map */

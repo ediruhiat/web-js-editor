@@ -43,12 +43,12 @@ body {
     font-weight: bold;
     background-color: transparent;
     border: none;
-    color: aliceblue;
+    color: white;
     padding: .5rem 1rem;
     cursor: pointer;
-    transition: background-color .1s ease;
+    transition: all .1s ease;
 
     &:hover {
-        background-color: rgba($color: #fff, $alpha: .1);
+        background-color: rgba($color: #fff, $alpha: .175) !important;
     }
 }
